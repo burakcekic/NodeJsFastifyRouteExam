@@ -13,7 +13,7 @@ async function apiTest(req,reply)
         "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
         }];
 }
-
+ 
 async function apiTestAsd()
 {
     return [  
@@ -68,18 +68,7 @@ async function apiTestAsd()
 
 async function apiTestDsa()
 {
-    return [
-        {
-            "userId": 1,
-            "id": 1,
-            "title": "quidem molestiae enim"
-          },
-          {
-            "userId": 1,
-            "id": 2,
-            "title": "sunt qui excepturi placeat culpa"
-          }
-    ]
+  return {status:"ok",code:200};
 }
 
 async function apiTestTest(request, reply)
