@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const routes = require('./routes/route');
-const fastifyStatic = require('fastify-static');
+//const fastifyStatic = require('fastify-static');
 const fastify = require('fastify')(
 {
     logger: true,
